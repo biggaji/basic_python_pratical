@@ -1,15 +1,15 @@
 import random
 # my basic bio
-# firstname = "Tobiloba"
-# lastname = "Ajibade"
-# username = "bigg_aji"
-# languages = ["javascript", "typescript", "python", "rust", "solidity"]
-#
-# #Unpack each language from the list
-# _lang1, _lang2, _lang3, _lang4, _lang5 = languages
-# print("Hello world, my name is " + firstname + " " + lastname + ", but most people calls me " + username,)
-# print("I code in these languages " + _lang1 + ", " + _lang2 + ", " + _lang3 + ", " + _lang4 + " and " + _lang5)
-# print(type(firstname))
+firstname = "Tobiloba"
+lastname = "Ajibade"
+username = "bigg_aji"
+languages = ["javascript", "typescript", "python", "rust", "solidity"]
+
+#Unpack each language from the list
+_lang1, _lang2, _lang3, _lang4, _lang5 = languages
+print("Hello world, my name is " + firstname + " " + lastname + ", but most people calls me " + username,)
+print("I code in these languages " + _lang1 + ", " + _lang2 + ", " + _lang3 + ", " + _lang4 + " and " + _lang5)
+print(type(firstname))
 
 def me():
     legend = "Super engineer 10X"
@@ -49,3 +49,14 @@ for k in name:
 
 # Get length of a string
 print('The length of the string is ' + str(len(name)))
+
+txt = 'The best thing in the world is free'
+print("best" in txt) #returns true
+
+if 'free' in txt:
+    print('Yeah, free is present')
+
+print('best' not in txt)
+
+if 'expensive' not in txt:
+    print('expensive is not present')
