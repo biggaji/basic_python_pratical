@@ -60,3 +60,74 @@ print('best' not in txt)
 
 if 'expensive' not in txt:
     print('expensive is not present')
+
+# slicing strings
+#you can return a range of characters by suing the slice syntax
+#tobiloba
+print(firstname[:4])
+
+b = "Hello, World!"
+print(b[:5])
+
+print(b[-5:-2])
+
+
+def getSlicedPart(string,stPos,endPos):
+    print(string[stPos:endPos])
+
+getSlicedPart('Anderson',0,5)
+
+#Modify strings
+#using python built in methods
+
+#upper case
+
+print(name.upper());
+
+#lowercase
+print(name.upper().lower());
+
+#remove whitesame from text
+unstripedtext = '   Asynchoronous   '
+print(unstripedtext.strip())
+print(unstripedtext)
+
+#replace string
+print(name.replace('ry','bi'))
+
+#split string
+Fruits = 'Orange, Olive'
+print(Fruits.split(','))
+
+#concatenate Strings
+#To concatenate, or combine two or more strings , you use the + operator
+c = "One"
+d = 'trillion'
+e = c + " " + d
+print(e)
+
+#Format string
+#the format() method takes it arguments, formats them and inserts them in the string in there respective
+#placeholders
+
+r = 'My name is Tobi Ajibade, and i am a {} {}. I gradated college in the year {}..'
+print(r.format('Software', 'Engineer', '2016'))
+
+#formatting based on index
+curr = 'pounds'
+w = 'I have {2} {0} {1} in my account!'
+print(w.format(d,curr,c))
+
+
+#Escape characters
+#\' - Single quotes
+#\\ - backslash
+#\n - new line
+#\r - carriage return
+#\b - backspace
+#\t - tab
+#\f - form field
+
+
+_l = "We are the so-called \nvikings from the north."
+print(_l)
